@@ -1,0 +1,196 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12pt;
+    margin: 0 auto;
+}
+
+#title {
+    border-top: 1px #eeeeee solid;
+    border-bottom: 1px #eeeeee solid;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
+    color: black;
+    margin: 0;
+}
+
+.topnav, .nav {
+    background-color: white;
+    border: none;
+    padding: 0 50px;
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav button {
+    float: left;
+}
+
+.topnav-right,.search-container, .search-container button {
+    float: right;
+}
+
+.topnav input[type=text] {
+    border: none;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.topnav, a {
+    color: dimgray;
+}
+
+.topnav:hover, a:hover {
+    color: #A52A2A;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col-sm-4, .col-sm-6, .col-sm-8 {
+    margin-top: 30px;
+}
+
+.painter1 img,.painter2 img,.painter3 img,.painter4 img,.painter5 img {
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+
+.artistInfo1,.artistInfo2,.artistInfo3,.artistInfo4,.artistInfo5,#paintingInfo1,#paintingInfo2,#paintingInfo3,#paintingInfo4,#paintingInfo5,#museumInfo1,#museumInfo2,#museumInfo3,#museumInfo4,#museumInfo5 {
+    border-left: 1px solid #eeeeee;
+    text-align: left;
+}
+
+img {
+    width: 300px;
+}
+
+#image img {
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+div {
+	text-align: center;
+}
+
+.btn-default {
+    width: 100px;
+    margin: 10px;
+}
+
+.dropbtn {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+    background-color: #A52A2A;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+.maintain {
+    margin-top: 30px;
+}
+
+td {
+    width: 200px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+#artidcol {
+    width: 130px;
+    text-align: center;
+}
+
+#artidbox {
+    width: 50px;
+}
+
+.popup {
+    position:relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .searchPopup {
+    visibility: visible;
+    width: 160px;
+    background-color: beige;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    right: 10%;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
