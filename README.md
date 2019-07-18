@@ -1,4 +1,4 @@
-# ArtGallery-
+# ArtGallery
 The user is given a brief description of the purpose of the site. At the top left corner above the header, there are buttons for Home, About Us and Blog. On the right top corner is the Maintain page which allows changes to the made to the database, the Shopping Cart to track the user’s purchases and a Search bar which allows the user to search for a painting.
 
 The Search dialogue box is in the top right side of the web page. A user can search for artwork by typing in the search bar, sending a MySQL query to the server and outputting the name, year and price on the bottom right side of the main page. The user can click on the information to then be sent to the artwork page, using JavaScript functions with cases to direct the user to the right artwork.   
